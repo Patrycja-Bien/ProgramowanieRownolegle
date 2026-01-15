@@ -1,0 +1,2 @@
+Dziewiąty plik testowy.
+CPU-bound: liczenie słów, sortowanie top-N, scalanie wyników cząstkowych.

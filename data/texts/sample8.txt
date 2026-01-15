@@ -1,0 +1,2 @@
+Ósmy plik testowy.
+Analiza tekstu w wielu plikach pozwala lepiej zobaczyć sens ProcessPoolExecutor.

@@ -1,0 +1,11 @@
+[project]
+name = "parallel-crawler"
+version = "0.1.0"
+description = "Równoległy crawler i analizator stron"
+requires-python = ">=3.10"
+dependencies = [
+	"matplotlib>=3.8",
+]
+
+[tool.ruff]
+line-length = 100

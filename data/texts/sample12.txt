@@ -1,0 +1,2 @@
+Dwunasty plik testowy.
+Dane testowe dla projektu z programowania równoległego.

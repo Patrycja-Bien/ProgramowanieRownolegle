@@ -1,0 +1,3 @@
+Szósty plik testowy.
+To jest dodatkowy materiał, aby zwiększyć liczbę plików wejściowych.
+Równoległość, procesy, histogram.

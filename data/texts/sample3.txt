@@ -1,0 +1,3 @@
+Trzeci plik testowy.
+Ten projekt demonstruje równoległość CPU przez ProcessPoolExecutor oraz w przeglądarce przez Web Workers.
+W praktyce im większy dataset, tym bardziej opłaca się uruchamiać więcej workerów (do liczby rdzeni).

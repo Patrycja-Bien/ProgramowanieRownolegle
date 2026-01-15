@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+output/*.json
+output/*.png
+data/texts_big/

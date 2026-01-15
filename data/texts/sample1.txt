@@ -1,0 +1,3 @@
+To jest przykładowy plik tekstowy do analizy.
+Python Python python.
+Równoległość CPU: liczenie histogramów, analiza słów.

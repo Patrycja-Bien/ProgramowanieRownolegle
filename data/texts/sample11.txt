@@ -1,0 +1,2 @@
+Jedenasty plik testowy.
+Ten tekst jest celowo krótki, ale ważna jest liczba plików w katalogu.

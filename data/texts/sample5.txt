@@ -1,0 +1,3 @@
+Piąty plik testowy.
+Równoległe przetwarzanie CPU ma narzut, więc dla małej liczby danych czas może być gorszy.
+Dla dużych danych przyspieszenie zwykle rośnie.
