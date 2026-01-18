@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "mode": "crawler",
+    "input": "data/urls.txt",
+    "timeout_s": 10.0,
+    "workers_min": 4,
+    "workers_max": 8,
+    "out_dir": "output\\bench"
+  },
+  "rows": [
+    {
+      "workers": 4,
+      "elapsed_ms": 68977,
+      "urls": 500,
+      "ok": 475,
+      "failed": 25,
+      "avg_per_url_ms": 535,
+      "urls_per_s": 7,
+      "speedup_vs_1": 1.0
+    },
+    {
+      "workers": 5,
+      "elapsed_ms": 70546,
+      "urls": 500,
+      "ok": 475,
+      "failed": 25,
+      "avg_per_url_ms": 687,
+      "urls_per_s": 7,
+      "speedup_vs_1": 0.9777591925835625
+    },
+    {
+      "workers": 6,
+      "elapsed_ms": 70169,
+      "urls": 500,
+      "ok": 475,
+      "failed": 25,
+      "avg_per_url_ms": 820,
+      "urls_per_s": 7,
+      "speedup_vs_1": 0.9830124413914977
+    },
+    {
+      "workers": 7,
+      "elapsed_ms": 59982,
+      "urls": 500,
+      "ok": 475,
+      "failed": 25,
+      "avg_per_url_ms": 809,
+      "urls_per_s": 8,
+      "speedup_vs_1": 1.1499616551632157
+    },
+    {
+      "workers": 8,
+      "elapsed_ms": 180016,
+      "urls": 500,
+      "ok": 468,
+      "failed": 32,
+      "avg_per_url_ms": 2838,
+      "urls_per_s": 2,
+      "speedup_vs_1": 0.38317149586703403
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "mode": "cpu-process-pool",
+    "workers": 2,
+    "files": 1,
+    "total_tokens": 16,
+    "unique_tokens": 14,
+    "total_elapsed_ms": 433
+  },
+  "top_words": [
+    {
+      "word": "python",
+      "count": 3
+    },
+    {
+      "word": "to",
+      "count": 1
+    },
+    {
+      "word": "jest",
+      "count": 1
+    },
+    {
+      "word": "przykładowy",
+      "count": 1
+    },
+    {
+      "word": "plik",
+      "count": 1
+    }
+  ],
+  "per_file": [
+    {
+      "path": "c:\\Users\\lorda\\Desktop\\ProgramowanieRownolegle\\ProgramowanieRownolegle\\data\\texts\\sample1.txt",
+      "tokens": 16
+    }
+  ]
+}

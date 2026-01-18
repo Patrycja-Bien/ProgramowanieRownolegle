@@ -1,0 +1,4513 @@
+{
+  "meta": {
+    "workers": 7,
+    "timeout_s": 10.0,
+    "total_urls": 500,
+    "ok": 475,
+    "failed": 25,
+    "total_elapsed_ms": 59982,
+    "avg_elapsed_ms": 809
+  },
+  "results": [
+    {
+      "url": "https://developer.mozilla.org/en-US/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1243,
+      "title": "MDN Web Docs",
+      "word_count": 3418,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/DedicatedWorkerGlobalScope",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 665,
+      "title": "DedicatedWorkerGlobalScope - Web APIs | MDN",
+      "word_count": 8217,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 520,
+      "title": "Fetch API - Web APIs | MDN",
+      "word_count": 8323,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 877,
+      "title": "MessageEvent - Web APIs | MDN",
+      "word_count": 8564,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Performance",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 708,
+      "title": "Performance - Web APIs | MDN",
+      "word_count": 8473,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Performance/now",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 475,
+      "title": "Performance: now() method - Web APIs | MDN",
+      "word_count": 8553,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Performance/now",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 519,
+      "title": "Performance: now() method - Web APIs | MDN",
+      "word_count": 8553,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1040,
+      "title": "ReadableStream - Web APIs | MDN",
+      "word_count": 8769,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Request",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 484,
+      "title": "Request - Web APIs | MDN",
+      "word_count": 8721,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Response",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 495,
+      "title": "Response - Web APIs | MDN",
+      "word_count": 8559,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 520,
+      "title": "TextDecoder - Web APIs | MDN",
+      "word_count": 8242,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1202,
+      "title": "Web Workers API - Web APIs | MDN",
+      "word_count": 8474,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Worker",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 781,
+      "title": "Worker - Web APIs | MDN",
+      "word_count": 8305,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Worker/onmessage",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1062,
+      "title": "Worker: message event - Web APIs | MDN",
+      "word_count": 8225,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 809,
+      "title": "Worker: postMessage() method - Web APIs | MDN",
+      "word_count": 8616,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/fetch",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1424,
+      "title": "Window: fetch() method - Web APIs | MDN",
+      "word_count": 8877,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1861,
+      "title": "JavaScript Guide - JavaScript | MDN",
+      "word_count": 9681,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1113,
+      "title": "Array - JavaScript | MDN",
+      "word_count": 14076,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 594,
+      "title": "BigInt - JavaScript | MDN",
+      "word_count": 9660,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 984,
+      "title": "Map - JavaScript | MDN",
+      "word_count": 10321,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 884,
+      "title": "Object - JavaScript | MDN",
+      "word_count": 10330,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1694,
+      "title": "Promise - JavaScript | MDN",
+      "word_count": 11623,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 752,
+      "title": "Promise - JavaScript | MDN",
+      "word_count": 11623,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 668,
+      "title": "RegExp - JavaScript | MDN",
+      "word_count": 10056,
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 858,
+      "title": "Set - JavaScript | MDN",
+      "word_count": 10045,
+      "error": null
+    },
+    {
+      "url": "https://docs.github.com/en/actions",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 568,
+      "title": "GitHub Actions documentation - GitHub Docs",
+      "word_count": 12807,
+      "error": null
+    },
+    {
+      "url": "https://docs.github.com/en/pages",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 325,
+      "title": "GitHub Pages documentation - GitHub Docs",
+      "word_count": 4928,
+      "error": null
+    },
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 502,
+      "title": "What is GitHub Pages? - GitHub Docs",
+      "word_count": 3700,
+      "error": null
+    },
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 312,
+      "title": "Creating a GitHub Pages site - GitHub Docs",
+      "word_count": 8007,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 508,
+      "title": "3.14.2 Documentation",
+      "word_count": 484,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/argparse.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1487,
+      "title": "argparse — Parser for command-line options, arguments and subcommands — Python 3.14.2 documentation",
+      "word_count": 11319,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/asyncio.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 548,
+      "title": "asyncio — Asynchronous I/O — Python 3.14.2 documentation",
+      "word_count": 536,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/base64.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 762,
+      "title": "base64 — Base16, Base32, Base64, Base85 Data Encodings — Python 3.14.2 documentation",
+      "word_count": 1939,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/collections.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1137,
+      "title": "collections — Container datatypes — Python 3.14.2 documentation",
+      "word_count": 6972,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/concurrent.futures.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 760,
+      "title": "concurrent.futures — Launching parallel tasks — Python 3.14.2 documentation",
+      "word_count": 4051,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/csv.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 942,
+      "title": "csv — CSV File Reading and Writing — Python 3.14.2 documentation",
+      "word_count": 3352,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/dataclasses.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 943,
+      "title": "dataclasses — Data Classes — Python 3.14.2 documentation",
+      "word_count": 4825,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/doctest.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 813,
+      "title": "doctest — Test interactive Python examples — Python 3.14.2 documentation",
+      "word_count": 10438,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/email.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 263,
+      "title": "email — An email and MIME handling package — Python 3.14.2 documentation",
+      "word_count": 1116,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/functools.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 664,
+      "title": "functools — Higher-order functions and operations on callable objects — Python 3.14.2 documentation",
+      "word_count": 4152,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/gzip.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 431,
+      "title": "gzip — Support for gzip files — Python 3.14.2 documentation",
+      "word_count": 1811,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/hashlib.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 553,
+      "title": "hashlib — Secure hashes and message digests — Python 3.14.2 documentation",
+      "word_count": 4082,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/hmac.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 299,
+      "title": "hmac — Keyed-Hashing for Message Authentication — Python 3.14.2 documentation",
+      "word_count": 893,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/html.parser.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 856,
+      "title": "html.parser — Simple HTML and XHTML parser — Python 3.14.2 documentation",
+      "word_count": 1735,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/http.client.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 841,
+      "title": "http.client — HTTP protocol client — Python 3.14.2 documentation",
+      "word_count": 3316,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/http.server.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 573,
+      "title": "http.server — HTTP servers — Python 3.14.2 documentation",
+      "word_count": 3317,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/itertools.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1445,
+      "title": "itertools — Functions creating iterators for efficient looping — Python 3.14.2 documentation",
+      "word_count": 5795,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/json.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 832,
+      "title": "json — JSON encoder and decoder — Python 3.14.2 documentation",
+      "word_count": 4057,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/logging.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1109,
+      "title": "logging — Logging facility for Python — Python 3.14.2 documentation",
+      "word_count": 9252,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/multiprocessing.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2216,
+      "title": "multiprocessing — Process-based parallelism — Python 3.14.2 documentation",
+      "word_count": 17366,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/os.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1993,
+      "title": "os — Miscellaneous operating system interfaces — Python 3.14.2 documentation",
+      "word_count": 28124,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/pathlib.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1059,
+      "title": "pathlib — Object-oriented filesystem paths — Python 3.14.2 documentation",
+      "word_count": 8853,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/pickle.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 638,
+      "title": "pickle — Python object serialization — Python 3.14.2 documentation",
+      "word_count": 7297,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/platform.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 760,
+      "title": "platform — Access to underlying platform’s identifying data — Python 3.14.2 documentation",
+      "word_count": 1958,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/profile.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 468,
+      "title": "The Python Profilers — Python 3.14.2 documentation",
+      "word_count": 4332,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/pstats.html",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 233,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://docs.python.org/3/library/queue.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 704,
+      "title": "queue — A synchronized queue class — Python 3.14.2 documentation",
+      "word_count": 1895,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/re.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1693,
+      "title": "re — Regular expression operations — Python 3.14.2 documentation",
+      "word_count": 10542,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/secrets.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 260,
+      "title": "secrets — Generate secure random numbers for managing secrets — Python 3.14.2 documentation",
+      "word_count": 961,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/socket.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1579,
+      "title": "socket — Low-level networking interface — Python 3.14.2 documentation",
+      "word_count": 12292,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/sqlite3.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1210,
+      "title": "sqlite3 — DB-API 2.0 interface for SQLite databases — Python 3.14.2 documentation",
+      "word_count": 11026,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/statistics.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 967,
+      "title": "statistics — Mathematical statistics functions — Python 3.14.2 documentation",
+      "word_count": 5942,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/subprocess.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1074,
+      "title": "subprocess — Subprocess management — Python 3.14.2 documentation",
+      "word_count": 8432,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/sys.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 951,
+      "title": "sys — System-specific parameters and functions — Python 3.14.2 documentation",
+      "word_count": 11243,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/threading.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 857,
+      "title": "threading — Thread-based parallelism — Python 3.14.2 documentation",
+      "word_count": 7510,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/time.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 887,
+      "title": "time — Time access and conversions — Python 3.14.2 documentation",
+      "word_count": 4999,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/traceback.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 913,
+      "title": "traceback — Print or retrieve a stack traceback — Python 3.14.2 documentation",
+      "word_count": 3650,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/typing.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2740,
+      "title": "typing — Support for type hints — Python 3.14.2 documentation",
+      "word_count": 18256,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/unittest.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1272,
+      "title": "unittest — Unit testing framework — Python 3.14.2 documentation",
+      "word_count": 12836,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/urllib.error.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 337,
+      "title": "urllib.error — Exception classes raised by urllib.request — Python 3.14.2 documentation",
+      "word_count": 490,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/urllib.parse.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 555,
+      "title": "urllib.parse — Parse URLs into components — Python 3.14.2 documentation",
+      "word_count": 4578,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/urllib.request.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1581,
+      "title": "urllib.request — Extensible library for opening URLs — Python 3.14.2 documentation",
+      "word_count": 7938,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/xml.etree.elementtree.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1258,
+      "title": "xml.etree.ElementTree — The ElementTree XML API — Python 3.14.2 documentation",
+      "word_count": 7819,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/zipfile.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 567,
+      "title": "zipfile — Work with ZIP archives — Python 3.14.2 documentation",
+      "word_count": 5097,
+      "error": null
+    },
+    {
+      "url": "https://e-uczelnia.uek.krakow.pl/",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 213,
+      "title": null,
+      "word_count": null,
+      "error": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Benchmark_(computing)",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 859,
+      "title": "Benchmark (computing) - Wikipedia",
+      "word_count": 6599,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1900,
+      "title": "CSS - Wikipedia",
+      "word_count": 14921,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Computer_performance",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 724,
+      "title": "Computer performance - Wikipedia",
+      "word_count": 6031,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Concurrency_(computer_science)",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 297,
+      "title": "Concurrency (computer science) - Wikipedia",
+      "word_count": 4553,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/HTML",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2364,
+      "title": "HTML - Wikipedia",
+      "word_count": 16491,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/HTTP",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2109,
+      "title": "HTTP - Wikipedia",
+      "word_count": 13436,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Histogram",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 928,
+      "title": "Histogram - Wikipedia",
+      "word_count": 7687,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/JSON",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1490,
+      "title": "JSON - Wikipedia",
+      "word_count": 9636,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/JavaScript",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1483,
+      "title": "JavaScript - Wikipedia",
+      "word_count": 14205,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MapReduce",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 909,
+      "title": "MapReduce - Wikipedia",
+      "word_count": 10437,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MapReduce",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1200,
+      "title": "MapReduce - Wikipedia",
+      "word_count": 10437,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Multiprocessing",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 636,
+      "title": "Multiprocessing - Wikipedia",
+      "word_count": 4742,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1457,
+      "title": "Multithreading (computer architecture) - Wikipedia",
+      "word_count": 6021,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Parallel_computing",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1447,
+      "title": "Parallel computing - Wikipedia",
+      "word_count": 13976,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Process_(computing)",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 748,
+      "title": "Process (computing) - Wikipedia",
+      "word_count": 5394,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2262,
+      "title": "Python (programming language) - Wikipedia",
+      "word_count": 18453,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Regular_expression",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1955,
+      "title": "Regular expression - Wikipedia",
+      "word_count": 15520,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thread_(computing)",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 413,
+      "title": "Thread (computing) - Wikipedia",
+      "word_count": 8477,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Unicode",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2599,
+      "title": "Unicode - Wikipedia",
+      "word_count": 20469,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1213,
+      "title": "Uniform Resource Identifier - Wikipedia",
+      "word_count": 8261,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_worker",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1148,
+      "title": "Web worker - Wikipedia",
+      "word_count": 3901,
+      "error": null
+    },
+    {
+      "url": "https://example.com/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 431,
+      "title": "Example Domain",
+      "word_count": 50,
+      "error": null
+    },
+    {
+      "url": "https://github.com/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 814,
+      "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+      "word_count": 16223,
+      "error": null
+    },
+    {
+      "url": "https://github.com/about",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1172,
+      "title": "About GitHub · GitHub",
+      "word_count": 4937,
+      "error": null
+    },
+    {
+      "url": "https://github.com/features",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2043,
+      "title": "GitHub Features · GitHub",
+      "word_count": 20431,
+      "error": null
+    },
+    {
+      "url": "https://github.com/github/docs",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1425,
+      "title": "GitHub - github/docs: The open-source repo for docs.github.com",
+      "word_count": 3939,
+      "error": null
+    },
+    {
+      "url": "https://httpbin.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1569,
+      "title": "httpbin.org",
+      "word_count": 192,
+      "error": null
+    },
+    {
+      "url": "https://httpbin.org/anything",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 723,
+      "title": null,
+      "word_count": 54,
+      "error": null
+    },
+    {
+      "url": "https://httpbin.org/get",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 502,
+      "title": null,
+      "word_count": 47,
+      "error": null
+    },
+    {
+      "url": "https://httpbin.org/headers",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 496,
+      "title": null,
+      "word_count": 36,
+      "error": null
+    },
+    {
+      "url": "https://httpbin.org/html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1075,
+      "title": null,
+      "word_count": 624,
+      "error": null
+    },
+    {
+      "url": "https://httpbin.org/user-agent",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 541,
+      "title": null,
+      "word_count": 7,
+      "error": null
+    },
+    {
+      "url": "https://httpbin.org/uuid",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 626,
+      "title": null,
+      "word_count": 6,
+      "error": null
+    },
+    {
+      "url": "https://httpstat.us/200",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 738,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/201",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 1472,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/202",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 1412,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/204",
+      "ok": true,
+      "status": 204,
+      "elapsed_ms": 742,
+      "title": null,
+      "word_count": 0,
+      "error": null
+    },
+    {
+      "url": "https://httpstat.us/301",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 942,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/302",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 673,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/400",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 832,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/401",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 584,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/403",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 586,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/404",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 618,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/408",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 617,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/429",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 733,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/500",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 635,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://httpstat.us/503",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 615,
+      "title": null,
+      "word_count": null,
+      "error": "Exception: RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "url": "https://matplotlib.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 490,
+      "title": "Matplotlib — Visualization with Python",
+      "word_count": 623,
+      "error": null
+    },
+    {
+      "url": "https://matplotlib.org/stable/api/index.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 955,
+      "title": "API Reference — Matplotlib 3.10.8 documentation",
+      "word_count": 4795,
+      "error": null
+    },
+    {
+      "url": "https://matplotlib.org/stable/tutorials/index.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 390,
+      "title": "Tutorials — Matplotlib 3.10.8 documentation",
+      "word_count": 742,
+      "error": null
+    },
+    {
+      "url": "https://matplotlib.org/stable/users/index.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 406,
+      "title": "Using Matplotlib — Matplotlib 3.10.8 documentation",
+      "word_count": 958,
+      "error": null
+    },
+    {
+      "url": "https://news.ycombinator.com/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 4153,
+      "title": "Hacker News",
+      "word_count": 648,
+      "error": null
+    },
+    {
+      "url": "https://numpy.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 172,
+      "title": "NumPy",
+      "word_count": 1025,
+      "error": null
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference/index.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 227,
+      "title": "NumPy reference — NumPy v2.4 Manual",
+      "word_count": 453,
+      "error": null
+    },
+    {
+      "url": "https://numpy.org/doc/stable/user/whatisnumpy.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 280,
+      "title": "What is NumPy? — NumPy v2.4 Manual",
+      "word_count": 1078,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0001/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 567,
+      "title": "PEP 1 – PEP Purpose and Guidelines | peps.python.org",
+      "word_count": 6369,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0005/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 275,
+      "title": "PEP 5 – Guidelines for Language Evolution | peps.python.org",
+      "word_count": 514,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0007/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 307,
+      "title": "PEP 7 – Style Guide for C Code | peps.python.org",
+      "word_count": 1242,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0008/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1400,
+      "title": "PEP 8 – Style Guide for Python Code | peps.python.org",
+      "word_count": 7117,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0008/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 375,
+      "title": "PEP 8 – Style Guide for Python Code | peps.python.org",
+      "word_count": 7117,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0011/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 456,
+      "title": "PEP 11 – CPython platform support | peps.python.org",
+      "word_count": 2193,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0020/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 450,
+      "title": "PEP 20 – The Zen of Python | peps.python.org",
+      "word_count": 321,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0249/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 427,
+      "title": "PEP 249 – Python Database API Specification v2.0 | peps.python.org",
+      "word_count": 6428,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0314/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 297,
+      "title": "PEP 314 – Metadata for Python Software Packages 1.1 | peps.python.org",
+      "word_count": 1514,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0328/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 373,
+      "title": "PEP 328 – Imports: Multi-Line and Absolute/Relative | peps.python.org",
+      "word_count": 1649,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0333/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 350,
+      "title": "PEP 333 – Python Web Server Gateway Interface v1.0 | peps.python.org",
+      "word_count": 11090,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0333/#environ-variables",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 440,
+      "title": "PEP 333 – Python Web Server Gateway Interface v1.0 | peps.python.org",
+      "word_count": 11090,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0380/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 191,
+      "title": "PEP 380 – Syntax for Delegating to a Subgenerator | peps.python.org",
+      "word_count": 2647,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0484/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 696,
+      "title": "PEP 484 – Type Hints | peps.python.org",
+      "word_count": 13499,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0517/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 460,
+      "title": "PEP 517 – A build-system independent format for source trees | peps.python.org",
+      "word_count": 6648,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0621/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 456,
+      "title": "PEP 621 – Storing project metadata in pyproject.toml | peps.python.org",
+      "word_count": 4091,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0703/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 718,
+      "title": "PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org",
+      "word_count": 12904,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0703/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 804,
+      "title": "PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org",
+      "word_count": 12904,
+      "error": null
+    },
+    {
+      "url": "https://peps.python.org/pep-0723/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 528,
+      "title": "PEP 723 – Inline script metadata | peps.python.org",
+      "word_count": 5230,
+      "error": null
+    },
+    {
+      "url": "https://pypi.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 357,
+      "title": "PyPI · The Python Package Index",
+      "word_count": 262,
+      "error": null
+    },
+    {
+      "url": "https://pypi.org/project/matplotlib/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2123,
+      "title": "matplotlib · PyPI",
+      "word_count": 15050,
+      "error": null
+    },
+    {
+      "url": "https://pypi.org/project/numpy/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 6750,
+      "title": "numpy · PyPI",
+      "word_count": 19297,
+      "error": null
+    },
+    {
+      "url": "https://pypi.org/project/requests/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2347,
+      "title": "requests · PyPI",
+      "word_count": 2019,
+      "error": null
+    },
+    {
+      "url": "https://www.bbc.com/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1179,
+      "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+      "word_count": 33143,
+      "error": null
+    },
+    {
+      "url": "https://www.gnu.org/licenses/agpl-3.0.en.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 872,
+      "title": "GNU Affero General Public License\n- GNU Project - Free Software Foundation",
+      "word_count": 5941,
+      "error": null
+    },
+    {
+      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1022,
+      "title": "The GNU General Public License v3.0\n- GNU Project - Free Software Foundation",
+      "word_count": 6083,
+      "error": null
+    },
+    {
+      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1095,
+      "title": "The GNU General Public License v3.0\n- GNU Project - Free Software Foundation",
+      "word_count": 6083,
+      "error": null
+    },
+    {
+      "url": "https://www.gnu.org/licenses/lgpl-3.0.en.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 869,
+      "title": "GNU Lesser General Public License v3.0\n- GNU Project - Free Software Foundation",
+      "word_count": 1669,
+      "error": null
+    },
+    {
+      "url": "https://www.gnu.org/philosophy/free-sw.en.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 833,
+      "title": "What is Free Software?\n- GNU Project - Free Software Foundation",
+      "word_count": 4266,
+      "error": null
+    },
+    {
+      "url": "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1711,
+      "title": "Character Sets",
+      "word_count": 6647,
+      "error": null
+    },
+    {
+      "url": "https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 625,
+      "title": "Hypertext Transfer Protocol (HTTP) Status Code Registry",
+      "word_count": 614,
+      "error": null
+    },
+    {
+      "url": "https://www.iana.org/assignments/media-types/media-types.xhtml",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 7513,
+      "title": "Media Types",
+      "word_count": 28424,
+      "error": null
+    },
+    {
+      "url": "https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2814,
+      "title": "Transport Layer Security (TLS) Parameters",
+      "word_count": 15494,
+      "error": null
+    },
+    {
+      "url": "https://www.iana.org/domains/reserved",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1736,
+      "title": "IANA-managed Reserved Domains",
+      "word_count": 408,
+      "error": null
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2050,
+      "title": "NASA",
+      "word_count": 8506,
+      "error": null
+    },
+    {
+      "url": "https://www.noaa.gov/",
+      "ok": false,
+      "status": 403,
+      "elapsed_ms": 503,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 403"
+    },
+    {
+      "url": "https://www.python.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 806,
+      "title": "Welcome to Python.org",
+      "word_count": 1065,
+      "error": null
+    },
+    {
+      "url": "https://www.reuters.com/",
+      "ok": false,
+      "status": 401,
+      "elapsed_ms": 448,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 401"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1035",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 674,
+      "title": "RFC 1035: Domain names - implementation and specification",
+      "word_count": 16478,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1122",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 735,
+      "title": "RFC 1122: Requirements for Internet Hosts - Communication Layers",
+      "word_count": 36078,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1951",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 349,
+      "title": "RFC 1951:  DEFLATE Compressed Data Format Specification version 1.3",
+      "word_count": 5395,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2046",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 408,
+      "title": "RFC 2046: Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types",
+      "word_count": 15461,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2396",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 643,
+      "title": "RFC 2396:  Uniform Resource Identifiers (URI): Generic Syntax",
+      "word_count": 12486,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2616",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2076,
+      "title": "RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1",
+      "word_count": 62419,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2616",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1063,
+      "title": "RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1",
+      "word_count": 62419,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc3986",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1075,
+      "title": "RFC 3986: Uniform Resource Identifier (URI): Generic Syntax",
+      "word_count": 19999,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc3986",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 593,
+      "title": "RFC 3986: Uniform Resource Identifier (URI): Generic Syntax",
+      "word_count": 19999,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc4180",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 261,
+      "title": "RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files",
+      "word_count": 2370,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc5234",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 693,
+      "title": "RFC 5234: Augmented BNF for Syntax Specifications: ABNF",
+      "word_count": 3743,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6000",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 358,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6001",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 528,
+      "title": "RFC 6001: Generalized MPLS (GMPLS) Protocol Extensions for Multi-Layer and Multi-Region Networks (MLN/MRN)",
+      "word_count": 7635,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6002",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 495,
+      "title": "RFC 6002: Generalized MPLS (GMPLS) Data Channel Switching Capable (DCSC) and Channel Set Label Extensions",
+      "word_count": 3443,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6003",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 558,
+      "title": "RFC 6003: Ethernet Traffic Parameters",
+      "word_count": 4140,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6004",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 364,
+      "title": "RFC 6004: Generalized MPLS (GMPLS) Support for Metro Ethernet Forum and G.8011 Ethernet Service Switching",
+      "word_count": 4894,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6005",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 318,
+      "title": "RFC 6005: Generalized MPLS (GMPLS) Support for Metro Ethernet Forum and G.8011 User Network Interface (UNI)",
+      "word_count": 3220,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6006",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 393,
+      "title": "RFC 6006: Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths",
+      "word_count": 9763,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6007",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 210,
+      "title": "RFC 6007: Use of the Synchronization VECtor (SVEC) List for Synchronized Dependent Path Computations",
+      "word_count": 5895,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6008",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 257,
+      "title": "RFC 6008: Authentication-Results Registration for Differentiating among Cryptographic Results",
+      "word_count": 2383,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6009",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 190,
+      "title": "RFC 6009: Sieve Email Filtering: Delivery Status Notifications and Deliver-By Extensions",
+      "word_count": 4411,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6010",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 364,
+      "title": "RFC 6010: Cryptographic Message Syntax (CMS) Content Constraints Extension",
+      "word_count": 11111,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6011",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 296,
+      "title": "RFC 6011: Session Initiation Protocol (SIP) User Agent Configuration",
+      "word_count": 9877,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6012",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 297,
+      "title": "RFC 6012: Datagram Transport Layer Security (DTLS) Transport Mapping for Syslog",
+      "word_count": 3822,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6013",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 310,
+      "title": "RFC 6013: TCP Cookie Transactions (TCPCT)",
+      "word_count": 9511,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6014",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 302,
+      "title": "RFC 6014: Cryptographic Algorithm Identifier Allocation for DNSSEC",
+      "word_count": 2161,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6015",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 376,
+      "title": "RFC 6015: RTP Payload Format for 1-D Interleaved Parity Forward Error Correction (FEC)",
+      "word_count": 9616,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6016",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 507,
+      "title": "RFC 6016: Support for the Resource Reservation Protocol (RSVP) in Layer 3 VPNs",
+      "word_count": 12983,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6017",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 277,
+      "title": "RFC 6017: Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field",
+      "word_count": 1672,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6018",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 363,
+      "title": "RFC 6018: IPv4 and IPv6 Greynets",
+      "word_count": 3584,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6019",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 290,
+      "title": "RFC 6019: BinaryTime: An Alternate Format for Representing Date and Time in ASN.1",
+      "word_count": 2145,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6020",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1072,
+      "title": "RFC 6020: YANG - A Data Modeling Language for the Network Configuration Protocol (NETCONF)",
+      "word_count": 39614,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6021",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 354,
+      "title": "RFC 6021: Common YANG Data Types",
+      "word_count": 7216,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6022",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 754,
+      "title": "RFC 6022: YANG Module for NETCONF Monitoring",
+      "word_count": 6163,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6023",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 912,
+      "title": "RFC 6023: A Childless Initiation of the Internet Key Exchange Version 2 (IKEv2) Security Association (SA)",
+      "word_count": 2177,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6024",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 281,
+      "title": "RFC 6024: Trust Anchor Management Requirements",
+      "word_count": 5153,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6025",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 273,
+      "title": "RFC 6025: ASN.1 Translation",
+      "word_count": 5242,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6026",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 634,
+      "title": "RFC 6026: Correct Transaction Handling for 2xx Responses to Session Initiation Protocol (SIP) INVITE Requests",
+      "word_count": 5321,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6027",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 555,
+      "title": "RFC 6027: IPsec Cluster Problem Statement",
+      "word_count": 4593,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6028",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1393,
+      "title": "RFC 6028: Host Identity Protocol (HIP) Multi-Hop Routing Extension",
+      "word_count": 3424,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6029",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 585,
+      "title": "RFC 6029: A Survey on Research on the Application-Layer Traffic Optimization (ALTO) Problem",
+      "word_count": 6767,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6030",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 774,
+      "title": "RFC 6030: Portable Symmetric Key Container (PSKC)",
+      "word_count": 15382,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6031",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 376,
+      "title": "RFC 6031: Cryptographic Message Syntax (CMS) Symmetric Key Package Content Type",
+      "word_count": 7887,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6032",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 206,
+      "title": "RFC 6032: Cryptographic Message Syntax (CMS) Encrypted Key Package Content Type",
+      "word_count": 3358,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6033",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 469,
+      "title": "RFC 6033: Algorithms for Cryptographic Message Syntax (CMS) Encrypted Key Package Content Type",
+      "word_count": 1849,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6034",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 444,
+      "title": "RFC 6034: Unicast-Prefix-Based IPv4 Multicast Addresses",
+      "word_count": 2091,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6035",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 609,
+      "title": "RFC 6035: Session Initiation Protocol Event Package for Voice Quality Reporting",
+      "word_count": 11304,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6036",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 585,
+      "title": "RFC 6036: Emerging Service Provider Scenarios for IPv6 Deployment",
+      "word_count": 7064,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6037",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 509,
+      "title": "RFC 6037: Cisco Systems' Solution for Multicast in BGP/MPLS IP VPNs",
+      "word_count": 8865,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6038",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 351,
+      "title": "RFC 6038: Two-Way Active Measurement Protocol (TWAMP) Reflect Octets and Symmetrical Size Features",
+      "word_count": 5236,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6039",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 360,
+      "title": "RFC 6039: Issues with Existing Cryptographic Protection Methods for Routing Protocols",
+      "word_count": 7572,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6040",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 384,
+      "title": "RFC 6040: Tunnelling of Explicit Congestion Notification",
+      "word_count": 13025,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6041",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 254,
+      "title": "RFC 6041: Forwarding and Control Element Separation (ForCES) Applicability Statement",
+      "word_count": 4327,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6042",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 283,
+      "title": "RFC 6042: Transport Layer Security (TLS) Authorization Using KeyNote",
+      "word_count": 2096,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6043",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 456,
+      "title": "RFC 6043: MIKEY-TICKET: Ticket-Based Modes of Key Distribution in Multimedia Internet KEYing (MIKEY)",
+      "word_count": 18939,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6044",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 298,
+      "title": "RFC 6044: Mapping and Interworking of Diversion Information between Diversion and History-Info Headers in the Session Initiation Protocol (SIP)",
+      "word_count": 7145,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6045",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 526,
+      "title": "RFC 6045: Real-time Inter-network Defense (RID)",
+      "word_count": 23305,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6046",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 278,
+      "title": "RFC 6046: Transport of Real-time Inter-network Defense (RID) Messages",
+      "word_count": 2548,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6047",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 436,
+      "title": "RFC 6047: iCalendar Message-Based Interoperability Protocol (iMIP)",
+      "word_count": 5762,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6048",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 485,
+      "title": "RFC 6048: Network News Transfer Protocol (NNTP) Additions to LIST Command",
+      "word_count": 7511,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6049",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 479,
+      "title": "RFC 6049: Spatial Composition of Metrics",
+      "word_count": 8224,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6050",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 326,
+      "title": "RFC 6050: A Session Initiation Protocol (SIP) Extension for the Identification of Services",
+      "word_count": 6206,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6051",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 497,
+      "title": "RFC 6051: Rapid Synchronisation of RTP Flows",
+      "word_count": 8092,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6052",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 395,
+      "title": "RFC 6052: IPv6 Addressing of IPv4/IPv6 Translators",
+      "word_count": 6372,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6053",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 594,
+      "title": "RFC 6053: Implementation Report for Forwarding and Control Element Separation (ForCES)",
+      "word_count": 6447,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6054",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 263,
+      "title": "RFC 6054: Using Counter Modes with Encapsulating Security Payload (ESP) and Authentication Header (AH) to Protect Group Traffic",
+      "word_count": 3729,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6055",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 636,
+      "title": "RFC 6055: IAB Thoughts on Encodings for Internationalized Domain Names",
+      "word_count": 8588,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6056",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 697,
+      "title": "RFC 6056: Recommendations for Transport-Protocol Port Randomization",
+      "word_count": 9340,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6057",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 639,
+      "title": "RFC 6057: Comcast's Protocol-Agnostic Congestion Management System",
+      "word_count": 10202,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6058",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 636,
+      "title": "RFC 6058: Transient Binding for Proxy Mobile IPv6",
+      "word_count": 12823,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6059",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 568,
+      "title": "RFC 6059: Simple Procedures for Detecting Network Attachment in IPv6",
+      "word_count": 5798,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6060",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 638,
+      "title": "RFC 6060: Generalized Multiprotocol Label Switching (GMPLS) Control of Ethernet Provider Backbone Traffic Engineering (PBB-TE)",
+      "word_count": 6721,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6061",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 297,
+      "title": "RFC 6061: Uniform Resource Name (URN) Namespace for the National Emergency Number Association (NENA)",
+      "word_count": 2348,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6062",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 220,
+      "title": "RFC 6062: Traversal Using Relays around NAT (TURN) Extensions for TCP Allocations",
+      "word_count": 4456,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6063",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 646,
+      "title": "RFC 6063: Dynamic Symmetric Key Provisioning Protocol (DSKPP)",
+      "word_count": 28871,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6064",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 363,
+      "title": "RFC 6064: SDP and RTSP Extensions Defined for 3GPP Packet-Switched Streaming Service and Multimedia Broadcast/Multicast Service",
+      "word_count": 6699,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6065",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 195,
+      "title": "RFC 6065: Using Authentication, Authorization, and Accounting Services to Dynamically Provision View-Based Access Control Model User-to-Group Mappings",
+      "word_count": 5566,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6066",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 279,
+      "title": "RFC 6066: Transport Layer Security (TLS) Extensions: Extension Definitions",
+      "word_count": 7836,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6067",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 229,
+      "title": "RFC 6067: BCP 47 Extension U",
+      "word_count": 2768,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6068",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 410,
+      "title": "RFC 6068: The 'mailto' URI Scheme",
+      "word_count": 5766,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6069",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 441,
+      "title": "RFC 6069: Making TCP More Robust to Long Connectivity Disruptions (TCP-LCD)",
+      "word_count": 8835,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6070",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 405,
+      "title": "RFC 6070: PKCS #5: Password-Based Key Derivation Function 2 (PBKDF2) Test Vectors",
+      "word_count": 1497,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6071",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 981,
+      "title": "RFC 6071: IP Security (IPsec) and Internet Key Exchange (IKE) Document Roadmap",
+      "word_count": 20533,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6072",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 871,
+      "title": "RFC 6072: Certificate Management Service for the Session Initiation Protocol (SIP)",
+      "word_count": 9970,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6073",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 746,
+      "title": "RFC 6073: Segmented Pseudowire",
+      "word_count": 15166,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6074",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 633,
+      "title": "RFC 6074: Provisioning, Auto-Discovery, and Signaling in Layer 2 Virtual Private Networks (L2VPNs)",
+      "word_count": 12473,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6075",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 568,
+      "title": "RFC 6075: The Internet Assigned Number Authority (IANA) Application Configuration Access Protocol (ACAP) Vendor Subtrees Registry",
+      "word_count": 2255,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6076",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 713,
+      "title": "RFC 6076: Basic Telephony SIP End-to-End Performance Metrics",
+      "word_count": 7378,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6077",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 780,
+      "title": "RFC 6077: Open Research Issues in Internet Congestion Control",
+      "word_count": 18387,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6078",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 351,
+      "title": "RFC 6078: Host Identity Protocol (HIP) Immediate Carriage and Conveyance of Upper-Layer Protocol Signaling (HICCUPS)",
+      "word_count": 5913,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6079",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 464,
+      "title": "RFC 6079: HIP BONE: Host Identity Protocol (HIP) Based Overlay Networking Environment (BONE)",
+      "word_count": 7369,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6080",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 611,
+      "title": "RFC 6080: A Framework for Session Initiation Protocol User Agent Profile Delivery",
+      "word_count": 16508,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6081",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 504,
+      "title": "RFC 6081: Teredo Extensions",
+      "word_count": 20067,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6082",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 232,
+      "title": "RFC 6082: Deprecating Unicode Language Tag Characters: RFC 2482 is Historic",
+      "word_count": 1388,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6083",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 244,
+      "title": "RFC 6083: Datagram Transport Layer Security (DTLS) for Stream Control Transmission Protocol (SCTP)",
+      "word_count": 2860,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6084",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 383,
+      "title": "RFC 6084: General Internet Signaling Transport (GIST) over Stream Control Transmission Protocol (SCTP) and Datagram Transport Layer Security (DTLS)",
+      "word_count": 4232,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6085",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 316,
+      "title": "RFC 6085: Address Mapping of IPv6 Multicast Packets on Ethernet",
+      "word_count": 1238,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6086",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 434,
+      "title": "RFC 6086: Session Initiation Protocol (SIP) INFO Method and Package Framework",
+      "word_count": 10943,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6087",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 370,
+      "title": "RFC 6087: Guidelines for Authors and Reviewers of YANG Data Model Documents",
+      "word_count": 7159,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6088",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 213,
+      "title": "RFC 6088: Traffic Selectors for Flow Bindings",
+      "word_count": 4122,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6089",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 520,
+      "title": "RFC 6089: Flow Bindings in Mobile IPv6 and Network Mobility (NEMO) Basic Support",
+      "word_count": 10394,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6090",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 591,
+      "title": "RFC 6090: Fundamental Elliptic Curve Cryptography Algorithms",
+      "word_count": 11406,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6091",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 413,
+      "title": "RFC 6091: Using OpenPGP Keys for Transport Layer Security (TLS) Authentication",
+      "word_count": 2885,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6092",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 536,
+      "title": "RFC 6092: Recommended Simple Security Capabilities in Customer Premises Equipment (CPE) for Providing Residential IPv6 Internet Service",
+      "word_count": 13231,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6093",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 466,
+      "title": "RFC 6093: On the Implementation of the TCP Urgent Mechanism",
+      "word_count": 4250,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6094",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 507,
+      "title": "RFC 6094: Summary of Cryptographic Authentication Algorithm Implementation Requirements for Routing Protocols",
+      "word_count": 3801,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6095",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1105,
+      "title": "RFC 6095: Extending YANG with Language Abstractions",
+      "word_count": 15237,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6096",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 715,
+      "title": "RFC 6096: Stream Control Transmission Protocol (SCTP) Chunk Flags Registration",
+      "word_count": 2166,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6097",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 648,
+      "title": "RFC 6097: Local Mobility Anchor (LMA) Discovery for Proxy Mobile IPv6",
+      "word_count": 3681,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6098",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 740,
+      "title": "RFC 6098: Generic Notification Message for Mobile IPv4",
+      "word_count": 12284,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6099",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 655,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6100",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 540,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6101",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 739,
+      "title": "RFC 6101: The Secure Sockets Layer (SSL) Protocol Version 3.0",
+      "word_count": 18162,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6102",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 304,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6103",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 298,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6104",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 377,
+      "title": "RFC 6104: Rogue IPv6 Router Advertisement Problem Statement",
+      "word_count": 5613,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6105",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 327,
+      "title": "RFC 6105: IPv6 Router Advertisement Guard",
+      "word_count": 3374,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6106",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 392,
+      "title": "RFC 6106: IPv6 Router Advertisement Options for DNS Configuration",
+      "word_count": 6731,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6107",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 682,
+      "title": "RFC 6107: Procedures for Dynamically Signaled Hierarchical Label Switched Paths",
+      "word_count": 9628,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6108",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 689,
+      "title": "RFC 6108: Comcast's Web Notification System Design",
+      "word_count": 7266,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6109",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 802,
+      "title": "RFC 6109: La Posta Elettronica Certificata - Italian Certified Electronic Mail",
+      "word_count": 17812,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6110",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 924,
+      "title": "RFC 6110: Mapping YANG to Document Schema Definition Languages and Validating NETCONF Content",
+      "word_count": 24780,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6111",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 513,
+      "title": "RFC 6111: Additional Kerberos Naming Constraints",
+      "word_count": 2502,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6112",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 511,
+      "title": "RFC 6112: Anonymity Support for Kerberos",
+      "word_count": 5980,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6113",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 883,
+      "title": "RFC 6113: A Generalized Framework for Kerberos Pre-Authentication",
+      "word_count": 17593,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6114",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 679,
+      "title": "RFC 6114: The 128-Bit Blockcipher CLEFIA",
+      "word_count": 8809,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6115",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 971,
+      "title": "RFC 6115: Recommendation for a Routing Architecture",
+      "word_count": 25206,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6116",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 801,
+      "title": "RFC 6116: The E.164 to Uniform Resource Identifiers (URI) Dynamic Delegation Discovery System (DDDS) Application (ENUM)",
+      "word_count": 8227,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6117",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 776,
+      "title": "RFC 6117: IANA Registration of Enumservices: Guide, Template, and IANA Considerations",
+      "word_count": 11127,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6118",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 886,
+      "title": "RFC 6118: Update of Legacy IANA Registrations of Enumservices",
+      "word_count": 13482,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6119",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 549,
+      "title": "RFC 6119: IPv6 Traffic Engineering in IS-IS",
+      "word_count": 3540,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6120",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2196,
+      "title": "RFC 6120: Extensible Messaging and Presence Protocol (XMPP): Core",
+      "word_count": 60468,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6121",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1829,
+      "title": "RFC 6121: Extensible Messaging and Presence Protocol (XMPP): Instant Messaging and Presence",
+      "word_count": 33411,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6122",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 692,
+      "title": "RFC 6122: Extensible Messaging and Presence Protocol (XMPP): Address Format",
+      "word_count": 7239,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6123",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 513,
+      "title": "RFC 6123: Inclusion of Manageability Sections in Path Computation Element (PCE) Working Group Drafts",
+      "word_count": 4482,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6124",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 880,
+      "title": "RFC 6124: An EAP Authentication Method Based on the Encrypted Key Exchange (EKE) Protocol",
+      "word_count": 9215,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6125",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1366,
+      "title": "RFC 6125: Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)",
+      "word_count": 19372,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6126",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1304,
+      "title": "RFC 6126: The Babel Routing Protocol",
+      "word_count": 15277,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6127",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1411,
+      "title": "RFC 6127: IPv4 Run-Out and IPv4-IPv6 Co-Existence Scenarios",
+      "word_count": 7381,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6128",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1259,
+      "title": "RFC 6128: RTP Control Protocol (RTCP) Port for Source-Specific Multicast (SSM) Sessions",
+      "word_count": 2118,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6129",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1015,
+      "title": "RFC 6129: The 'application/tei+xml' Media Type",
+      "word_count": 2318,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6130",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 667,
+      "title": "RFC 6130: Mobile Ad Hoc Network (MANET) Neighborhood Discovery Protocol (NHDP)",
+      "word_count": 24070,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6131",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 613,
+      "title": "RFC 6131: Sieve Vacation Extension: \"Seconds\" Parameter",
+      "word_count": 1804,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6132",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 470,
+      "title": "RFC 6132: Sieve Notification Using Presence Information",
+      "word_count": 2907,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6133",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 465,
+      "title": "RFC 6133: Sieve Email Filtering: Use of Presence Information with Auto-Responder Functionality",
+      "word_count": 2858,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6134",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 449,
+      "title": "RFC 6134: Sieve Extension: Externally Stored Lists",
+      "word_count": 5607,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6135",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 458,
+      "title": "RFC 6135: An Alternative Connection Model for the Message Session Relay Protocol (MSRP)",
+      "word_count": 2954,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6136",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 592,
+      "title": "RFC 6136: Layer 2 Virtual Private Network (L2VPN) Operations, Administration, and Maintenance (OAM) Requirements and Framework",
+      "word_count": 12580,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6137",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 648,
+      "title": "RFC 6137: The Network Trouble Ticket Data Model (NTTDM)",
+      "word_count": 7904,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6138",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 559,
+      "title": "RFC 6138: LDP IGP Synchronization for Broadcast Networks",
+      "word_count": 3464,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6139",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 690,
+      "title": "RFC 6139: Routing and Addressing in Networks with Global Enterprise Recursion (RANGER) Scenarios",
+      "word_count": 12630,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6140",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 843,
+      "title": "RFC 6140: Registration for Multiple Phone Numbers in the Session Initiation Protocol (SIP)",
+      "word_count": 11979,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6141",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 778,
+      "title": "RFC 6141: Re-INVITE and Target-Refresh Request Handling in the Session Initiation Protocol (SIP)",
+      "word_count": 8635,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6142",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 782,
+      "title": "RFC 6142: ANSI C12.22, IEEE 1703, and MC12.22 Transport Over IP",
+      "word_count": 8986,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6143",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 862,
+      "title": "RFC 6143: The Remote Framebuffer Protocol",
+      "word_count": 10983,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6144",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 850,
+      "title": "RFC 6144: Framework for IPv4/IPv6 Translation",
+      "word_count": 8666,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6145",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 759,
+      "title": "RFC 6145: IP/ICMP Translation Algorithm",
+      "word_count": 10672,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6146",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 889,
+      "title": "RFC 6146: Stateful NAT64: Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers",
+      "word_count": 16240,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6147",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 665,
+      "title": "RFC 6147: DNS64: DNS Extensions for Network Address Translation from IPv6 Clients to IPv4 Servers",
+      "word_count": 11404,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6148",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 562,
+      "title": "RFC 6148: DHCPv4 Lease Query by Relay Agent Remote ID",
+      "word_count": 4163,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6149",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 627,
+      "title": "RFC 6149: MD2 to Historic Status",
+      "word_count": 2452,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6150",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 462,
+      "title": "RFC 6150: MD4 to Historic Status",
+      "word_count": 3229,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6151",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 353,
+      "title": "RFC 6151: Updated Security Considerations for the MD5 Message-Digest and the HMAC-MD5 Algorithms",
+      "word_count": 2598,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6152",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 352,
+      "title": "RFC 6152: SMTP Service Extension for 8-bit MIME Transport",
+      "word_count": 2428,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6153",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 256,
+      "title": "RFC 6153: DHCPv4 and DHCPv6 Options for Access Network Discovery and Selection Function (ANDSF) Discovery",
+      "word_count": 2305,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6154",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 257,
+      "title": "RFC 6154: IMAP LIST Extension for Special-Use Mailboxes",
+      "word_count": 4067,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6155",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 352,
+      "title": "RFC 6155: Use of Device Identity in HTTP-Enabled Location Delivery (HELD)",
+      "word_count": 8466,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6156",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 284,
+      "title": "RFC 6156: Traversal Using Relays around NAT (TURN) Extension for IPv6",
+      "word_count": 4408,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6157",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 273,
+      "title": "RFC 6157: IPv6 Transition in the Session Initiation Protocol (SIP)",
+      "word_count": 5238,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6158",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 460,
+      "title": "RFC 6158: RADIUS Design Guidelines",
+      "word_count": 12620,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6159",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 407,
+      "title": "RFC 6159: Session-Specific Explicit Diameter Request Routing",
+      "word_count": 6571,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6160",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 354,
+      "title": "RFC 6160: Algorithms for Cryptographic Message Syntax (CMS) Protection of Symmetric Key Package Content Types",
+      "word_count": 1873,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6161",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 328,
+      "title": "RFC 6161: Elliptic Curve Algorithms for Cryptographic Message Syntax (CMS) Encrypted Key Package Content Type",
+      "word_count": 1273,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6162",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 296,
+      "title": "RFC 6162: Elliptic Curve Algorithms for Cryptographic Message Syntax (CMS) Asymmetric Key Package Content Type",
+      "word_count": 1341,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6163",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 441,
+      "title": "RFC 6163: Framework for GMPLS and Path Computation Element (PCE) Control of Wavelength Switched Optical Networks (WSONs)",
+      "word_count": 15193,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6164",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 342,
+      "title": "RFC 6164: Using 127-Bit IPv6 Prefixes on Inter-Router Links",
+      "word_count": 2751,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6165",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 427,
+      "title": "RFC 6165: Extensions to IS-IS for Layer-2 Systems",
+      "word_count": 2117,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6166",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 330,
+      "title": "RFC 6166: A Registry for PIM Message Types",
+      "word_count": 1500,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6167",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 284,
+      "title": "RFC 6167: URI Scheme for Java(tm) Message Service 1.0",
+      "word_count": 6483,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6168",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 404,
+      "title": "RFC 6168: Requirements for Management of Name Servers for the DNS",
+      "word_count": 5485,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6169",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 415,
+      "title": "RFC 6169: Security Concerns with IP Tunneling",
+      "word_count": 7145,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6170",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 339,
+      "title": "RFC 6170: Internet X.509 Public Key Infrastructure -- Certificate Image",
+      "word_count": 3579,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6171",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 323,
+      "title": "RFC 6171: The Lightweight Directory Access Protocol (LDAP) Don't Use Copy Control",
+      "word_count": 2121,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6172",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 272,
+      "title": "RFC 6172: Deprecation of the Internet Fibre Channel Protocol (iFCP) Address Translation Mode",
+      "word_count": 2109,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6173",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 493,
+      "title": "RFC 6173: Definitions of Managed Objects for the Internet Fibre Channel Protocol (iFCP)",
+      "word_count": 6680,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6174",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 457,
+      "title": "RFC 6174: Definition of IETF Working Group Document States",
+      "word_count": 9235,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6175",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 391,
+      "title": "RFC 6175: Requirements to Extend the Datatracker for IETF Working Group Chairs and Authors",
+      "word_count": 9691,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6176",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 248,
+      "title": "RFC 6176: Prohibiting Secure Sockets Layer (SSL) Version 2.0",
+      "word_count": 1653,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6177",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 307,
+      "title": "RFC 6177: IPv6 Address Assignment to End Sites",
+      "word_count": 3632,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6178",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 435,
+      "title": "RFC 6178: Label Edge Router Forwarding of IPv4 Option Packets",
+      "word_count": 3527,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6179",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 506,
+      "title": "RFC 6179: The Internet Routing Overlay Network (IRON)",
+      "word_count": 12221,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6180",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 497,
+      "title": "RFC 6180: Guidelines for Using IPv6 Transition Mechanisms during IPv6 Deployment",
+      "word_count": 7448,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6181",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 340,
+      "title": "RFC 6181: Threat Analysis for TCP Extensions for Multipath Operation with Multiple Addresses",
+      "word_count": 6927,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6182",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 512,
+      "title": "RFC 6182: Architectural Guidelines for Multipath TCP Development",
+      "word_count": 9724,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6183",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 582,
+      "title": "RFC 6183: IP Flow Information Export (IPFIX) Mediation: Framework",
+      "word_count": 8251,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6184",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1359,
+      "title": "RFC 6184: RTP Payload Format for H.264 Video",
+      "word_count": 36303,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6185",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 869,
+      "title": "RFC 6185: RTP Payload Format for H.264 Reduced-Complexity Decoding Operation (RCDO) Video",
+      "word_count": 8879,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6186",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 412,
+      "title": "RFC 6186: Use of SRV Records for Locating Email Submission/Access Services",
+      "word_count": 3230,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6187",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1513,
+      "title": "RFC 6187: X.509v3 Certificates for Secure Shell Authentication",
+      "word_count": 5184,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6188",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1596,
+      "title": "RFC 6188: The Use of AES-192 and AES-256 in Secure RTP",
+      "word_count": 4433,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6189",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1250,
+      "title": "RFC 6189: ZRTP: Media Path Key Agreement for Unicast Secure RTP",
+      "word_count": 41506,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6190",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1302,
+      "title": "RFC 6190: RTP Payload Format for Scalable Video Coding",
+      "word_count": 37658,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6191",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1999,
+      "title": "RFC 6191: Reducing the TIME-WAIT State Using TCP Timestamps",
+      "word_count": 3735,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6192",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 778,
+      "title": "RFC 6192: Protecting the Router Control Plane",
+      "word_count": 6648,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6193",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 678,
+      "title": "RFC 6193: Media Description for the Internet Key Exchange Protocol (IKE) in the Session Description Protocol (SDP)",
+      "word_count": 7581,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6194",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 353,
+      "title": "RFC 6194: Security Considerations for the SHA-0 and SHA-1 Message-Digest Algorithms",
+      "word_count": 2737,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6195",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 338,
+      "title": "RFC 6195: Domain Name System (DNS) IANA Considerations",
+      "word_count": 4912,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6196",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 343,
+      "title": "RFC 6196: Moving mailserver: URI Scheme to Historic",
+      "word_count": 1311,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6197",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 589,
+      "title": "RFC 6197: Location-to-Service Translation (LoST) Service List Boundary Extension",
+      "word_count": 3823,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6198",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 454,
+      "title": "RFC 6198: Requirements for the Graceful Shutdown of BGP Sessions",
+      "word_count": 5527,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6199",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 88,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6200",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 128,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6201",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 204,
+      "title": "RFC 6201: Device Reset Characterization",
+      "word_count": 5216,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6202",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 229,
+      "title": "RFC 6202: Known Issues and Best Practices for the Use of Long Polling and Streaming in Bidirectional HTTP",
+      "word_count": 6844,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6203",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 362,
+      "title": "RFC 6203: IMAP4 Extension for Fuzzy Search",
+      "word_count": 2506,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6204",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 298,
+      "title": "RFC 6204: Basic Requirements for IPv6 Customer Edge Routers",
+      "word_count": 5321,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6205",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 190,
+      "title": "RFC 6205: Generalized Labels for Lambda-Switch-Capable (LSC) Label Switching Routers",
+      "word_count": 4023,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6206",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 191,
+      "title": "RFC 6206: The Trickle Algorithm",
+      "word_count": 4739,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6207",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 195,
+      "title": "RFC 6207: The Media Types application/mods+xml, application/mads+xml, application/mets+xml, application/marcxml+xml, and application/sru+xml",
+      "word_count": 2824,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6208",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 373,
+      "title": "RFC 6208: Cloud Data Management Interface (CDMI) Media Types",
+      "word_count": 3583,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6209",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 176,
+      "title": "RFC 6209: Addition of the ARIA Cipher Suites to Transport Layer Security (TLS)",
+      "word_count": 2489,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6210",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 234,
+      "title": "RFC 6210: Experiment: Hash Functions with Parameters in the Cryptographic Message Syntax (CMS) and S/MIME",
+      "word_count": 3652,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6211",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 189,
+      "title": "RFC 6211: Cryptographic Message Syntax (CMS) Algorithm Identifier Protection Attribute",
+      "word_count": 3438,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6212",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 216,
+      "title": "RFC 6212: Authentication-Results Registration for Vouch by Reference Results",
+      "word_count": 2115,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6213",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 126,
+      "title": "RFC 6213: IS-IS BFD-Enabled TLV",
+      "word_count": 2670,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6214",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 184,
+      "title": "RFC 6214: Adaptation of RFC 1149 for IPv6",
+      "word_count": 2537,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6215",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 381,
+      "title": "RFC 6215: MPLS Transport Profile User-to-Network and Network-to-Network Interfaces",
+      "word_count": 1948,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6216",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 548,
+      "title": "RFC 6216: Example Call Flows Using Session Initiation Protocol (SIP) Security Mechanisms",
+      "word_count": 17144,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6217",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 237,
+      "title": "RFC 6217: Regional Broadcast Using an Atmospheric Link Layer",
+      "word_count": 3025,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6218",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 272,
+      "title": "RFC 6218: Cisco Vendor-Specific RADIUS Attributes for the Delivery of Keying Material",
+      "word_count": 4613,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6219",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 379,
+      "title": "RFC 6219: The China Education and Research Network (CERNET) IVI Translation Design and Deployment for the IPv4/IPv6 Coexistence and Transition",
+      "word_count": 6548,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6220",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 289,
+      "title": "RFC 6220: Defining the Role and Function of IETF Protocol Parameter Registry Operators",
+      "word_count": 3665,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6221",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 289,
+      "title": "RFC 6221: Lightweight DHCPv6 Relay Agent",
+      "word_count": 4068,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6222",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 437,
+      "title": "RFC 6222: Guidelines for Choosing RTP Control Protocol (RTCP) Canonical Names (CNAMEs)",
+      "word_count": 3422,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6223",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 347,
+      "title": "RFC 6223: Indication of Support for Keep-Alive",
+      "word_count": 5659,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6224",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 415,
+      "title": "RFC 6224: Base Deployment for Multicast Listener Support in Proxy Mobile IPv6 (PMIPv6) Domains",
+      "word_count": 6177,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6225",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 506,
+      "title": "RFC 6225: Dynamic Host Configuration Protocol Options for Coordinate-Based Location Configuration Information",
+      "word_count": 10807,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6226",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 337,
+      "title": "RFC 6226: PIM Group-to-Rendezvous-Point Mapping",
+      "word_count": 3974,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6227",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 331,
+      "title": "RFC 6227: Design Goals for Scalable Internet Routing",
+      "word_count": 2932,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6228",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 370,
+      "title": "RFC 6228: Session Initiation Protocol (SIP) Response Code for Indication of Terminated Dialog",
+      "word_count": 5047,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6229",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 357,
+      "title": "RFC 6229: Test Vectors for the Stream Cipher RC4",
+      "word_count": 6807,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6230",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 676,
+      "title": "RFC 6230: Media Control Channel Framework",
+      "word_count": 15905,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6231",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1044,
+      "title": "RFC 6231: An Interactive Voice Response (IVR) Control Package for the Media Control Channel Framework",
+      "word_count": 36541,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6232",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 326,
+      "title": "RFC 6232: Purge Originator Identification TLV for IS-IS",
+      "word_count": 1938,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6233",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 334,
+      "title": "RFC 6233: IS-IS Registry Extension for Purges",
+      "word_count": 1743,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6234",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 809,
+      "title": "RFC 6234: US Secure Hash Algorithms (SHA and SHA-based HMAC and HKDF)",
+      "word_count": 28461,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6235",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 521,
+      "title": "RFC 6235: IP Flow Anonymization Support",
+      "word_count": 13541,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6236",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 807,
+      "title": "RFC 6236: Negotiation of Generic Image Attributes in the Session Description Protocol (SDP)",
+      "word_count": 7778,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6237",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 558,
+      "title": "RFC 6237: IMAP4 Multimailbox SEARCH Extension",
+      "word_count": 3465,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6238",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 757,
+      "title": "RFC 6238: TOTP: Time-Based One-Time Password Algorithm",
+      "word_count": 4425,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6239",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 525,
+      "title": "RFC 6239: Suite B Cryptographic Suites for Secure Shell (SSH)",
+      "word_count": 4161,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6240",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 641,
+      "title": "RFC 6240: Synchronous Optical Network/Synchronous Digital Hierarchy (SONET/SDH) Circuit Emulation over Packet (CEP) MIB Using SMIv2",
+      "word_count": 13713,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6241",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 928,
+      "title": "RFC 6241: Network Configuration Protocol (NETCONF)",
+      "word_count": 26017,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6242",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 396,
+      "title": "RFC 6242: Using the NETCONF Protocol over Secure Shell (SSH)",
+      "word_count": 3702,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6243",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 671,
+      "title": "RFC 6243: With-defaults Capability for NETCONF",
+      "word_count": 7308,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6244",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 638,
+      "title": "RFC 6244: An Architecture for Network Management Using NETCONF and YANG",
+      "word_count": 8554,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6245",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 497,
+      "title": "RFC 6245: Generic Routing Encapsulation (GRE) Key Extension for Mobile IPv4",
+      "word_count": 2962,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6246",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 713,
+      "title": "RFC 6246: Virtual Private LAN Service (VPLS) Interoperability with Customer Edge (CE) Bridges",
+      "word_count": 7671,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6247",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 667,
+      "title": "RFC 6247: Moving the Undeployed TCP Extensions RFC 1072, RFC 1106, RFC 1110, RFC 1145, RFC 1146, RFC 1379, RFC 1644, and RFC 1693 to Historic Status",
+      "word_count": 1440,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6248",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 663,
+      "title": "RFC 6248: RFC 4148 and the IP Performance Metrics (IPPM) Registry of Metrics Are Obsolete",
+      "word_count": 1917,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6249",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 864,
+      "title": "RFC 6249: Metalink/HTTP: Mirrors and Hashes",
+      "word_count": 6830,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6250",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 709,
+      "title": "RFC 6250: Evolution of the IP Model",
+      "word_count": 8890,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6251",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 325,
+      "title": "RFC 6251: Using Kerberos Version 5 over the Transport Layer Security (TLS) Protocol",
+      "word_count": 2777,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6252",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 974,
+      "title": "RFC 6252: A Framework of Media-Independent Pre-Authentication (MPA) for Inter-Domain Handover Optimization",
+      "word_count": 19731,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6253",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2147,
+      "title": "RFC 6253: Host Identity Protocol Certificates",
+      "word_count": 3778,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6254",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 593,
+      "title": "RFC 6254: Request to Move RFC 2754 to Historic Status",
+      "word_count": 1487,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6255",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 621,
+      "title": "RFC 6255: Delay-Tolerant Networking Bundle Protocol IANA Registries",
+      "word_count": 2448,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6256",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 611,
+      "title": "RFC 6256: Using Self-Delimiting Numeric Values in Protocols",
+      "word_count": 6258,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6257",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 629,
+      "title": "RFC 6257: Bundle Security Protocol Specification",
+      "word_count": 20378,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6258",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 370,
+      "title": "RFC 6258: Delay-Tolerant Networking Metadata Extension Block",
+      "word_count": 3586,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6259",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 355,
+      "title": "RFC 6259: Delay-Tolerant Networking Previous-Hop Insertion Block",
+      "word_count": 4009,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6260",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 388,
+      "title": "RFC 6260: Compressed Bundle Header Encoding (CBHE)",
+      "word_count": 4086,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6261",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 300,
+      "title": "RFC 6261: Encrypted Signaling Transport Modes for the Host Identity Protocol",
+      "word_count": 4420,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6262",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 427,
+      "title": "RFC 6262: RTP Payload Format for IP-MR Speech Codec",
+      "word_count": 5442,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6263",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 402,
+      "title": "RFC 6263: Application Mechanism for Keeping Alive the NAT Mappings Associated with RTP / RTP Control Protocol (RTCP) Flows",
+      "word_count": 3789,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6264",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 418,
+      "title": "RFC 6264: An Incremental Carrier-Grade NAT (CGN) for IPv6 Transition",
+      "word_count": 5009,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6265",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 560,
+      "title": "RFC 6265: HTTP State Management Mechanism",
+      "word_count": 11868,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6266",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 413,
+      "title": "RFC 6266: Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
+      "word_count": 3916,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6267",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 549,
+      "title": "RFC 6267: MIKEY-IBAKE: Identity-Based Authenticated Key Exchange (IBAKE) Mode of Key Distribution in Multimedia Internet KEYing (MIKEY)",
+      "word_count": 9182,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6268",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1012,
+      "title": "RFC 6268: Additional New ASN.1 Modules for the Cryptographic Message Syntax (CMS) and the Public Key Infrastructure Using X.509 (PKIX)",
+      "word_count": 6684,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6269",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1109,
+      "title": "RFC 6269: Issues with IP Address Sharing",
+      "word_count": 10222,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6270",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 859,
+      "title": "RFC 6270: The 'tn3270' URI Scheme",
+      "word_count": 1987,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6271",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 835,
+      "title": "RFC 6271: Requirements for SIP-Based Session Peering",
+      "word_count": 7837,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6272",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1110,
+      "title": "RFC 6272: Internet Protocols for the Smart Grid",
+      "word_count": 21621,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6273",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 801,
+      "title": "RFC 6273: The Secure Neighbor Discovery (SEND) Hash Threat Analysis",
+      "word_count": 2301,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6274",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1122,
+      "title": "RFC 6274: Security Assessment of the Internet Protocol Version 4",
+      "word_count": 25819,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6275",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1147,
+      "title": "RFC 6275: Mobility Support in IPv6",
+      "word_count": 58823,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6276",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 474,
+      "title": "RFC 6276: DHCPv6 Prefix Delegation for Network Mobility (NEMO)",
+      "word_count": 4485,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6277",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 584,
+      "title": "RFC 6277: Online Certificate Status Protocol Algorithm Agility",
+      "word_count": 3389,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6278",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 553,
+      "title": "RFC 6278: Use of Static-Static Elliptic Curve Diffie-Hellman Key Agreement in Cryptographic Message Syntax",
+      "word_count": 5475,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6279",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 562,
+      "title": "RFC 6279: Proxy Mobile IPv6 (PMIPv6) Localized Routing Problem Statement",
+      "word_count": 5116,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6280",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 751,
+      "title": "RFC 6280: An Architecture for Location and Location Privacy in Internet Applications",
+      "word_count": 14671,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6281",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 494,
+      "title": "RFC 6281: Understanding Apple's Back to My Mac (BTMM) Service",
+      "word_count": 6220,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6282",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 812,
+      "title": "RFC 6282: Compression Format for IPv6 Datagrams over IEEE 802.15.4-Based Networks",
+      "word_count": 7812,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6283",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 721,
+      "title": "RFC 6283: Extensible Markup Language Evidence Record Syntax (XMLERS)",
+      "word_count": 13752,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6284",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 686,
+      "title": "RFC 6284: Port Mapping between Unicast and Multicast RTP Sessions",
+      "word_count": 10252,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6285",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 670,
+      "title": "RFC 6285: Unicast-Based Rapid Acquisition of Multicast RTP Sessions",
+      "word_count": 19859,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6286",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 504,
+      "title": "RFC 6286: Autonomous-System-Wide Unique BGP Identifier for BGP-4",
+      "word_count": 1682,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6287",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 423,
+      "title": "RFC 6287: OCRA: OATH Challenge-Response Algorithm",
+      "word_count": 8540,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6288",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 364,
+      "title": "RFC 6288: URN Namespace for the Defence Geospatial Information Working Group (DGIWG)",
+      "word_count": 2617,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6289",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 490,
+      "title": "RFC 6289: A Uniform Resource Name (URN) Namespace for CableLabs",
+      "word_count": 2140,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6290",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 544,
+      "title": "RFC 6290: A Quick Crash Detection Method for the Internet Key Exchange Protocol (IKE)",
+      "word_count": 7464,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6291",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 758,
+      "title": "RFC 6291: Guidelines for the Use of the \"OAM\" Acronym in the IETF",
+      "word_count": 2677,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6292",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1025,
+      "title": "RFC 6292: Requirements for a Working Group Charter Tool",
+      "word_count": 4117,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6293",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 851,
+      "title": "RFC 6293: Requirements for Internet-Draft Tracking by the IETF Community in the Datatracker",
+      "word_count": 6258,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6294",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1020,
+      "title": "RFC 6294: Survey of Proposed Use Cases for the IPv6 Flow Label",
+      "word_count": 6599,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6295",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2364,
+      "title": "RFC 6295: RTP Payload Format for MIDI",
+      "word_count": 60697,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6296",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 895,
+      "title": "RFC 6296: IPv6-to-IPv6 Network Prefix Translation",
+      "word_count": 10267,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6297",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 834,
+      "title": "RFC 6297: A Survey of Lower-than-Best-Effort Transport Protocols",
+      "word_count": 7048,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6298",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 516,
+      "title": "RFC 6298: Computing TCP's Retransmission Timer",
+      "word_count": 3833,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6299",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 1196,
+      "title": null,
+      "word_count": null,
+      "error": "HTTPError: 404"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6455",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 947,
+      "title": "RFC 6455: The WebSocket Protocol",
+      "word_count": 22996,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc7231",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1486,
+      "title": "RFC 7231: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
+      "word_count": 33966,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc7231",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 975,
+      "title": "RFC 7231: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
+      "word_count": 33966,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8259",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 593,
+      "title": "RFC 8259: The JavaScript Object Notation (JSON) Data Interchange Format",
+      "word_count": 4178,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8446",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1130,
+      "title": "RFC 8446: The Transport Layer Security (TLS) Protocol Version 1.3",
+      "word_count": 43057,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9110",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2788,
+      "title": "RFC 9110: HTTP Semantics",
+      "word_count": 76132,
+      "error": null
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9110",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 4259,
+      "title": "RFC 9110: HTTP Semantics",
+      "word_count": 76132,
+      "error": null
+    },
+    {
+      "url": "https://www.sqlite.org/index.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 653,
+      "title": "SQLite Home Page",
+      "word_count": 634,
+      "error": null
+    },
+    {
+      "url": "https://www.sqlite.org/lang.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 968,
+      "title": "Query Language Understood by SQLite",
+      "word_count": 513,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 219,
+      "title": "W3C",
+      "word_count": 3574,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/CSS/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2668,
+      "title": "CSS Snapshot 2025",
+      "word_count": 24113,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/CSS22/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 517,
+      "title": "Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification",
+      "word_count": 2638,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/DOM-Level-2-Core/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 3305,
+      "title": "Document Object Model (DOM) Level 2 Core\nSpecification",
+      "word_count": 27072,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/PNG/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 4347,
+      "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
+      "word_count": 45359,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/css-color-4/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 3671,
+      "title": "CSS Color Module Level 4",
+      "word_count": 70252,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/html52/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 5175,
+      "title": "HTML Standard",
+      "word_count": 8657,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/html52/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 6260,
+      "title": "HTML Standard",
+      "word_count": 8657,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/service-workers-1/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 5687,
+      "title": "Service Workers Nightly",
+      "word_count": 123888,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/TR/workers/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 5920,
+      "title": "HTML Standard",
+      "word_count": 8657,
+      "error": null
+    },
+    {
+      "url": "https://www.w3schools.com/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1218,
+      "title": "W3Schools Online Web Tutorials",
+      "word_count": 7582,
+      "error": null
+    },
+    {
+      "url": "https://www.wikipedia.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2014,
+      "title": "Wikipedia",
+      "word_count": 18270,
+      "error": null
+    }
+  ]
+}

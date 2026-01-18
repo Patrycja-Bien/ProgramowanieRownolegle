@@ -4,9 +4,10 @@ import argparse
 import json
 import re
 import time
+from pathlib import Path
 from dataclasses import dataclass, asdict
 from html.parser import HTMLParser
-from typing import Iterable, Optional
+from typing import Iterable
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -18,9 +19,9 @@ class _TextExtractor(HTMLParser):
         super().__init__()
         self._chunks: list[str] = []
         self._in_title = False
-        self.title: Optional[str] = None
+        self.title: str | None = None
 
-    def handle_starttag(self, tag: str, attrs):
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         if tag.lower() == "title":
             self._in_title = True
 
@@ -43,11 +44,11 @@ class _TextExtractor(HTMLParser):
 class FetchResult:
     url: str
     ok: bool
-    status: Optional[int]
+    status: int | None
     elapsed_ms: int
-    title: Optional[str]
-    word_count: Optional[int]
-    error: Optional[str]
+    title: str | None
+    word_count: int | None
+    error: str | None
 
 
 _WORD_RE = re.compile(r"\b\w+\b", re.UNICODE)
@@ -55,6 +56,10 @@ _WORD_RE = re.compile(r"\b\w+\b", re.UNICODE)
 
 def _count_words(text: str) -> int:
     return len(_WORD_RE.findall(text))
+
+
+def _elapsed_ms(start: float) -> int:
+    return int((time.perf_counter() - start) * 1000)
 
 
 def fetch_and_analyze(url: str, timeout_s: float) -> FetchResult:
@@ -71,7 +76,6 @@ def fetch_and_analyze(url: str, timeout_s: float) -> FetchResult:
         with urlopen(req, timeout=timeout_s) as resp:
             status = getattr(resp, "status", None)
             raw = resp.read()
-            content_type = resp.headers.get("Content-Type", "")
 
         try:
             html = raw.decode("utf-8")
@@ -82,7 +86,7 @@ def fetch_and_analyze(url: str, timeout_s: float) -> FetchResult:
         parser.feed(html)
         text = parser.get_text()
 
-        elapsed_ms = int((time.perf_counter() - start) * 1000)
+        elapsed_ms = _elapsed_ms(start)
         return FetchResult(
             url=url,
             ok=True,
@@ -94,7 +98,7 @@ def fetch_and_analyze(url: str, timeout_s: float) -> FetchResult:
         )
 
     except HTTPError as e:
-        elapsed_ms = int((time.perf_counter() - start) * 1000)
+        elapsed_ms = _elapsed_ms(start)
         return FetchResult(
             url=url,
             ok=False,
@@ -105,7 +109,7 @@ def fetch_and_analyze(url: str, timeout_s: float) -> FetchResult:
             error=f"HTTPError: {e.code}",
         )
     except URLError as e:
-        elapsed_ms = int((time.perf_counter() - start) * 1000)
+        elapsed_ms = _elapsed_ms(start)
         return FetchResult(
             url=url,
             ok=False,
@@ -116,7 +120,7 @@ def fetch_and_analyze(url: str, timeout_s: float) -> FetchResult:
             error=f"URLError: {e.reason}",
         )
     except Exception as e:
-        elapsed_ms = int((time.perf_counter() - start) * 1000)
+        elapsed_ms = _elapsed_ms(start)
         return FetchResult(
             url=url,
             ok=False,
@@ -130,7 +134,7 @@ def fetch_and_analyze(url: str, timeout_s: float) -> FetchResult:
 
 def read_urls(path: str) -> list[str]:
     urls: list[str] = []
-    with open(path, "r", encoding="utf-8") as f:
+    with Path(path).open("r", encoding="utf-8") as f:
         for line in f:
             s = line.strip()
             if not s or s.startswith("#"):
@@ -185,7 +189,11 @@ def main() -> int:
         "results": [asdict(r) for r in results],
     }
 
-    with open(args.out, "w", encoding="utf-8") as f:
+    out_path = Path(args.out)
+    if out_path.parent and str(out_path.parent) not in {".", ""}:
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with out_path.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print(f"URL-i: {len(results)} | OK: {ok_count} | Błędy: {fail_count}")

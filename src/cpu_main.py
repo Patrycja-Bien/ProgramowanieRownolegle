@@ -7,6 +7,7 @@ import re
 import time
 from collections import Counter
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Iterable
 
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -23,16 +24,14 @@ class FileCount:
 
 
 def _iter_text_files(input_path: str) -> list[str]:
-    if os.path.isfile(input_path):
-        return [input_path]
+    p = Path(input_path)
+    if p.is_file():
+        return [str(p)]
 
-    paths: list[str] = []
-    for root, _dirs, files in os.walk(input_path):
-        for name in files:
-            if name.lower().endswith(".txt"):
-                paths.append(os.path.join(root, name))
+    if not p.exists():
+        return []
 
-    paths.sort()
+    paths = sorted(str(x) for x in p.rglob("*.txt") if x.is_file())
     return paths
 
 
@@ -46,10 +45,6 @@ def count_words_in_file(path: str) -> FileCount:
     return FileCount(path=path, tokens=len(tokens), counts=dict(c))
 
 
-def _merge_counts(total: Counter[str], partial: dict[str, int]) -> None:
-    total.update(partial)
-
-
 def run(paths: Iterable[str], workers: int) -> tuple[list[FileCount], Counter[str]]:
     per_file: list[FileCount] = []
     total = Counter()
@@ -59,7 +54,7 @@ def run(paths: Iterable[str], workers: int) -> tuple[list[FileCount], Counter[st
         for fut in as_completed(futures):
             fc = fut.result()
             per_file.append(fc)
-            _merge_counts(total, fc.counts)
+            total.update(fc.counts)
 
     per_file.sort(key=lambda x: x.path)
     return per_file, total
@@ -116,8 +111,9 @@ def main() -> int:
         ],
     }
 
-    os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as f:
+    out_path = Path(args.out)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print(f"Pliki: {len(per_file)} | Tokeny: {total_tokens} | Unikalne: {unique}")

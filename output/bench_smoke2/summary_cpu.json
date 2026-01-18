@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "mode": "cpu",
+    "input": "c:/Users/lorda/Desktop/ProgramowanieRownolegle/ProgramowanieRownolegle/data/texts/sample1.txt",
+    "workers_min": 1,
+    "workers_max": 2,
+    "top": 5,
+    "out_dir": "c:\\Users\\lorda\\Desktop\\ProgramowanieRownolegle\\ProgramowanieRownolegle\\output\\bench_smoke2"
+  },
+  "rows": [
+    {
+      "workers": 1,
+      "elapsed_ms": 706,
+      "files": 1,
+      "total_tokens": 16,
+      "unique_tokens": 14,
+      "tok_per_s": 22,
+      "speedup_vs_1": 1.0
+    },
+    {
+      "workers": 2,
+      "elapsed_ms": 433,
+      "files": 1,
+      "total_tokens": 16,
+      "unique_tokens": 14,
+      "tok_per_s": 36,
+      "speedup_vs_1": 1.630484988452656
+    }
+  ]
+}

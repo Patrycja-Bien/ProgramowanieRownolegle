@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parallel Worker Demo (GitHub Pages)</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial,
+          sans-serif;
+        margin: 0;
+        padding: 24px;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 22px;
+      }
+      p {
+        margin: 0 0 16px;
+        opacity: 0.9;
+      }
+      .card {
+        border: 1px solid rgba(127, 127, 127, 0.35);
+        border-radius: 10px;
+        padding: 16px;
+        margin: 12px 0;
+      }
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 220px;
+        gap: 12px;
+        align-items: end;
+      }
+      label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      input[type='number'],
+      input[type='file'] {
+        width: 100%;
+      }
+      button {
+        padding: 10px 12px;
+        border-radius: 8px;
+        border: 1px solid rgba(127, 127, 127, 0.45);
+        background: transparent;
+        cursor: pointer;
+      }
+      button[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      .actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .meta {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+      .kv {
+        border: 1px dashed rgba(127, 127, 127, 0.35);
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .kv .k {
+        font-size: 12px;
+        opacity: 0.75;
+      }
+      .kv .v {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .status {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 13px;
+        white-space: pre-wrap;
+      }
+      canvas {
+        width: 100%;
+        height: 420px;
+      }
+      .hint {
+        font-size: 12px;
+        opacity: 0.75;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script type="module" src="./docs/app.js"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <h1>Programowanie równoległe — test workera w przeglądarce</h1>
+      <p>
+        Ta strona działa na GitHub Pages (statycznie) i uruchamia analizę CPU w
+        wielu Web Workerach. Wgraj pliki <code>.txt</code>, ustaw liczbę
+        workerów i zobacz wykres TOP słów.
+      </p>
+
+      <div class="card">
+        <div class="row">
+          <div>
+            <label for="files">Pliki tekstowe (.txt)</label>
+            <input id="files" type="file" multiple accept=".txt,text/plain" />
+            <div class="hint">
+              Wskazówka: możesz użyć danych z <code>data/texts</code> lub
+              wygenerować większe przez <code>src/generate_texts.py</code>.
+            </div>
+          </div>
+          <div>
+            <label for="workers">Liczba workerów</label>
+            <input
+              id="workers"
+              type="number"
+              min="1"
+              max="32"
+              step="1"
+              value="4"
+            />
+          </div>
+        </div>
+
+        <div style="height: 12px"></div>
+
+        <div class="actions">
+          <button id="run">Uruchom analizę</button>
+          <button id="runDemo">Uruchom demo (bez plików)</button>
+          <button id="reset">Reset</button>
+          <button id="download" disabled>Pobierz wynik JSON</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="meta">
+          <div class="kv">
+            <div class="k">Status</div>
+            <div class="v" id="statusLabel">idle</div>
+          </div>
+          <div class="kv">
+            <div class="k">Pliki</div>
+            <div class="v" id="filesCount">0</div>
+          </div>
+          <div class="kv">
+            <div class="k">Czas</div>
+            <div class="v" id="elapsed">-</div>
+          </div>
+        </div>
+        <div style="height: 12px"></div>
+        <div class="meta">
+          <div class="kv">
+            <div class="k">Tokeny</div>
+            <div class="v" id="tokens">-</div>
+          </div>
+          <div class="kv">
+            <div class="k">Unikalne</div>
+            <div class="v" id="unique">-</div>
+          </div>
+          <div class="kv">
+            <div class="k">Śr. czas / plik</div>
+            <div class="v" id="avgPerFile">-</div>
+          </div>
+        </div>
+        <div style="height: 12px"></div>
+        <div class="status" id="status"></div>
+      </div>
+
+      <div class="card">
+        <div class="hint"><b>Czas per plik</b> (sortowane malejąco)</div>
+        <div class="status" id="fileStats">Brak danych</div>
+      </div>
+
+      <div class="card">
+        <canvas id="chart"></canvas>
+      </div>
+    </div>
+  </body>
+</html>

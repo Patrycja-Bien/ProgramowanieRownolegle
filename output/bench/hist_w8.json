@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "mode": "cpu-process-pool",
+    "workers": 8,
+    "files": 80,
+    "total_tokens": 24000000,
+    "unique_tokens": 7973,
+    "total_elapsed_ms": 4711
+  },
+  "top_words": [
+    {
+      "word": "nft",
+      "count": 25077
+    },
+    {
+      "word": "czy",
+      "count": 24774
+    },
+    {
+      "word": "ekrkw",
+      "count": 23450
+    },
+    {
+      "word": "jnzyafqkqq",
+      "count": 23403
+    },
+    {
+      "word": "wcevblozgh",
+      "count": 23337
+    },
+    {
+      "word": "tmkvfuvmnv",
+      "count": 23321
+    },
+    {
+      "word": "klgyokzyg",
+      "count": 23307
+    },
+    {
+      "word": "dotr",
+      "count": 23301
+    },
+    {
+      "word": "kwsdwblolv",
+      "count": 23294
+    },
+    {
+      "word": "hlkotgrnp",
+      "count": 23291
+    },
+    {
+      "word": "yrk",
+      "count": 23289
+    },
+    {
+      "word": "ihetgga",
+      "count": 23285
+    },
+    {
+      "word": "gmdsrt",
+      "count": 23277
+    },
+    {
+      "word": "cglvxagj",
+      "count": 23272
+    },
+    {
+      "word": "wrjzazuz",
+      "count": 23260
+    },
+    {
+      "word": "mzbnm",
+      "count": 23257
+    },
+    {
+      "word": "acdtdy",
+      "count": 23249
+    },
+    {
+      "word": "rgbr",
+      "count": 23244
+    },
+    {
+      "word": "nvcakvm",
+      "count": 23237
+    },
+    {
+      "word": "qtggbv",
+      "count": 23228
+    },
+    {
+      "word": "ulzhwwcvsy",
+      "count": 23226
+    },
+    {
+      "word": "cakxodbcv",
+      "count": 23223
+    },
+    {
+      "word": "swyviuplqs",
+      "count": 23221
+    },
+    {
+      "word": "xhdtnlqgmk",
+      "count": 23220
+    },
+    {
+      "word": "egkhwprhjy",
+      "count": 23214
+    },
+    {
+      "word": "fiuevdxe",
+      "count": 23210
+    },
+    {
+      "word": "mrqxbu",
+      "count": 23208
+    },
+    {
+      "word": "duv",
+      "count": 23207
+    },
+    {
+      "word": "rff",
+      "count": 23202
+    },
+    {
+      "word": "lty",
+      "count": 23200
+    }
+  ],
+  "per_file": [
+    {
+      "path": "data\\texts\\texts_big\\gen_0001.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0002.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0003.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0004.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0005.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0006.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0007.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0008.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0009.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0010.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0011.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0012.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0013.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0014.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0015.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0016.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0017.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0018.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0019.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0020.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0021.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0022.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0023.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0024.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0025.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0026.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0027.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0028.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0029.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0030.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0031.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0032.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0033.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0034.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0035.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0036.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0037.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0038.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0039.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0040.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0041.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0042.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0043.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0044.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0045.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0046.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0047.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0048.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0049.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0050.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0051.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0052.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0053.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0054.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0055.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0056.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0057.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0058.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0059.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0060.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0061.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0062.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0063.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0064.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0065.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0066.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0067.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0068.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0069.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0070.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0071.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0072.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0073.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0074.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0075.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0076.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0077.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0078.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0079.txt",
+      "tokens": 300000
+    },
+    {
+      "path": "data\\texts\\texts_big\\gen_0080.txt",
+      "tokens": 300000
+    }
+  ]
+}
