@@ -55,7 +55,11 @@ def generate(out_dir: str, files: int, words_per_file: int, vocab: int, seed: in
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generator plików .txt do benchmarku CPU")
-    ap.add_argument("--out-dir", default="data/texts_big", help="Katalog docelowy na pliki .txt")
+    ap.add_argument(
+        "--out-dir",
+        default="data/texts/texts_big",
+        help="Katalog docelowy na pliki .txt",
+    )
     ap.add_argument("--files", type=int, default=80, help="Ile plików wygenerować")
     ap.add_argument("--words-per-file", type=int, default=300_000, help="Ile słów na plik")
     ap.add_argument("--vocab", type=int, default=8000, help="Rozmiar słownika (unikalne słowa)")

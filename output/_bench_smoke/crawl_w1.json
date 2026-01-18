@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "workers": 1,
+    "timeout_s": 5.0,
+    "total_urls": 9,
+    "ok": 7,
+    "failed": 2,
+    "total_elapsed_ms": 7847,
+    "avg_elapsed_ms": 864
+  },
+  "results": [
+    {
+      "url": "https://docs.python.org/3/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 171,
+      "title": "3.14.2 Documentation",
+      "word_count": 484,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/concurrent.futures.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1217,
+      "title": "concurrent.futures — Launching parallel tasks — Python 3.14.2 documentation",
+      "word_count": 4051,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/multiprocessing.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1542,
+      "title": "multiprocessing — Process-based parallelism — Python 3.14.2 documentation",
+      "word_count": 17366,
+      "error": null
+    },
+    {
+      "url": "https://docs.python.org/3/library/threading.html",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 380,
+      "title": "threading — Thread-based parallelism — Python 3.14.2 documentation",
+      "word_count": 7510,
+      "error": null
+    },
+    {
+      "url": "https://e-uczelnia.uek.krakow.pl/",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 43,
+      "title": null,
+      "word_count": null,
+      "error": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
+    },
+    {
+      "url": "https://example.com/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 176,
+      "title": "Example Domain",
+      "word_count": 50,
+      "error": null
+    },
+    {
+      "url": "https://www.w3schools.com/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1564,
+      "title": "W3Schools Online Web Tutorials",
+      "word_count": 7582,
+      "error": null
+    },
+    {
+      "url": "https://www.wikipedia.org/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2607,
+      "title": "Wikipedia",
+      "word_count": 18270,
+      "error": null
+    },
+    {
+      "url": "﻿https://www.python.org/",
+      "ok": false,
+      "status": null,
+      "elapsed_ms": 76,
+      "title": null,
+      "word_count": null,
+      "error": "URLError: unknown url type: ﻿https"
+    }
+  ]
+}

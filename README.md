@@ -2,17 +2,45 @@
 
 ## Cel projektu
 
-Projekt demonstruje programowanie **równoległe** na 3 sposobach:
+Projekt demonstruje programowanie **równoległe** na 3 sposoby:
 
 1. **Python (I/O-bound)**: równoległe pobieranie wielu stron WWW (wątki).
 2. **Python (CPU-bound)**: równoległe liczenie histogramu słów w wielu plikach `.txt` (procesy).
-3. **WWW (GitHub Pages)**: „worker przez stronę” — równoległe obliczenia CPU w przeglądarce (Web Workers) + wykres.
+3. **WWW (GitHub Pages)**: worker przez stronę — równoległe obliczenia CPU w przeglądarce (Web Workers) + wykres.
 
 ## Zastosowane mechanizmy
 
 - `concurrent.futures.ThreadPoolExecutor` – równoległe zadania I/O (crawler).
 - `concurrent.futures.ProcessPoolExecutor` – równoległe zadania CPU (histogram).
 - **Web Workers** (JS) – równoległość w przeglądarce + wizualizacja (Chart.js).
+
+## Technologie
+
+- **Python 3.10+**: standardowa biblioteka (`concurrent.futures`, `urllib`, `html.parser`, regex, JSON).
+- **Matplotlib**: generowanie wykresów PNG z wyników CLI.
+- **JavaScript (przeglądarka)**: Web Workers do równoległych obliczeń + Chart.js do wizualizacji.
+
+## Działanie
+
+1) Crawler (I/O-bound, wątki)
+
+- wejście: plik z URL-ami (1 URL/linia)
+- każdy URL = jedno zadanie w `ThreadPoolExecutor`
+- pobranie HTML, wyciągnięcie tekstu i `<title>`, policzenie słów
+- wyjście: JSON z metadanymi i wynikami per URL
+
+2) Histogram (CPU-bound, procesy)
+
+- wejście: plik `.txt` lub katalog z `.txt` (rekurencyjnie)
+- każdy plik = jedno zadanie w `ProcessPoolExecutor` (liczenie słów)
+- proces główny scala histogramy cząstkowe
+- wyjście: JSON z `meta` oraz `top_words`
+
+3) Demo WWW (Web Workers)
+
+- wejście: wgrane pliki `.txt` albo tryb demo (deterministyczny workload)
+- podział plików na paczki i analiza w wielu workerach
+- scalanie wyników w wątku głównym + wykres TOP słów
 
 ## Struktura projektu
 
@@ -25,11 +53,20 @@ Projekt demonstruje programowanie **równoległe** na 3 sposobach:
 - `src/bench_workers.py` – benchmark workerów 1..8 + tabelka wyników (CLI)
 - `data/urls.txt` – przykładowe URL-e
 - `data/texts/` – przykładowe małe pliki `.txt`
+- `data/texts/texts_big` – przykładowe duże pliki `.txt`
 
 ## Wymagania
 
 - Python 3.10+ (zalecane 3.12)
 - `matplotlib` jest potrzebny tylko do `src/plot_results.py` (wykresy PNG). Pozostałe skrypty działają na standardowej bibliotece.
+
+## Instalacja (CLI)
+
+Jeśli chcesz uruchamiać wykresy (`src/plot_results.py`), zainstaluj zależności:
+
+```bash
+python -m pip install -e .
+```
 
 ---
 
@@ -108,9 +145,9 @@ python src/cpu_main.py --input data/texts --workers 8 --out output/hist_8.json
 **Większe dane (benchmark CPU):**
 
 ```bash
-python src/generate_texts.py --out-dir data/texts_big --files 80 --words-per-file 300000 --vocab 8000
-python src/cpu_main.py --input data/texts_big --workers 1 --out output/hist_big_1.json
-python src/cpu_main.py --input data/texts_big --workers 8 --out output/hist_big_8.json
+python src/generate_texts.py --out-dir data/texts/texts_big --files 80 --words-per-file 300000 --vocab 8000
+python src/cpu_main.py --input data/texts/texts_big --workers 1 --out output/hist_big_1.json
+python src/cpu_main.py --input data/texts/texts_big --workers 8 --out output/hist_big_8.json
 ```
 
 ### Benchmark workerów 1..8 (tabelka) — `src/bench_workers.py`
@@ -124,7 +161,7 @@ python src/bench_workers.py --mode cpu --input data/texts --min 1 --max 8
 Histogram CPU (procesy) na dużych danych tekstowych:
 
 ```bash
-python src/bench_workers.py --mode cpu --input data/texts_big --min 1 --max 8
+python src/bench_workers.py --mode cpu --input data/texts/texts_big --min 1 --max 8
 ```
 
 Crawler WWW (wątki) na URL-ach:
@@ -155,7 +192,7 @@ python src/plot_results.py --input output/hist_big_8.json --out output/hist_plot
 
 ---
 
-## Format wyników (JSON) — krótko
+## Format wyników (JSON) 
 
 **Crawler (`src/main.py`)**
 

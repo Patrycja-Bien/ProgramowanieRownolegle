@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "mode": "crawler",
+    "input": "c:/Users/lorda/Desktop/ProgramowanieRownolegle/ProgramowanieRownolegle/output/_urls_smoke.txt",
+    "timeout_s": 5.0,
+    "workers_min": 1,
+    "workers_max": 2,
+    "out_dir": "c:\\Users\\lorda\\Desktop\\ProgramowanieRownolegle\\ProgramowanieRownolegle\\output\\_bench_smoke"
+  },
+  "rows": [
+    {
+      "workers": 1,
+      "elapsed_ms": 7847,
+      "urls": 9,
+      "ok": 7,
+      "failed": 2,
+      "avg_per_url_ms": 864,
+      "urls_per_s": 1,
+      "speedup_vs_1": 1.0
+    },
+    {
+      "workers": 2,
+      "elapsed_ms": 3452,
+      "urls": 9,
+      "ok": 7,
+      "failed": 2,
+      "avg_per_url_ms": 673,
+      "urls_per_s": 2,
+      "speedup_vs_1": 2.273174971031286
+    }
+  ]
+}
